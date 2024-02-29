@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--命名空间-->
+<mapper namespace="com.itheima.mapper.UserMapper">
+<!--    <select id="selectAll" resultType="com.itheima.pojo.User">  -->
+<!--    因为核心配置文件中使用了别名typeAliases,所以会自动定位到改包，注意类名不区分大小写-->
+<!--    status语句-->
+    <select id="selectAll" resultType="user">
+        select * from tb_user
+    </select>
+    <select id="selectById" resultType="user">
+        select * from tb_user where id = #{id};
+    </select>
+</mapper>

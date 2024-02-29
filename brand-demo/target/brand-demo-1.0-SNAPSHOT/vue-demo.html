@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="js/vue.js"></script>
+<body>
+<div id="app">
+    <input v-model = "username">
+<!--    插值表达式-->
+    {{username}}
+    <a :href="url">点击</a>
+    <input v-model = "url"><br>
+    <a v-bind:href="url">123</a><br>
+</div>
+
+<script>
+    new Vue({
+        el:"#app",
+        data(){
+            return{
+                username:"",
+                url:""
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

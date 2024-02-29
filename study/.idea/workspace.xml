@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="brand-demo:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35dc8a1e-af53-47fe-80f0-c2b4db9df31e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db1@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db1: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QsjdtKXmOQuAxJDMXxuXHNxGC1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41311854" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\space\maker\code\adbc\springMVC\src\main\java\com\spring" />
+      <recent name="D:\space\maker\code\adbc\springMVC\src\main\resources" />
+      <recent name="D:\space\brand-demo\src\main\webapp\js" />
+      <recent name="D:\space\brand-demo\src\main\java\com\cxw\util" />
+      <recent name="D:\space\maker\code\adbc\untitled\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.adbc.util" />
+      <recent name="com.adbc.pojo" />
+      <recent name="com.adbc.web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\space\maker\code\adbc\untitled\src\main\webapp" />
+      <recent name="D:\space\brand-demo\src\main\webapp" />
+      <recent name="D:\space\jsp-demo\src\main\java\com\adbc\pojo" />
+      <recent name="D:\space\jsp-demo\src\main\webapp" />
+      <recent name="D:\space\servlet\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Class102_1">
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.App2" />
+      <module name="springMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Class100_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nimingInnerClass.Class100_2" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nimingInnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Class101" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.Class101" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Class102_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mythread.Class102_1" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mythread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.MybatisDemo2" />
+      <module name="mybatisdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="local" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.88" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/brand" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="brand-demo:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/brand" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_study" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52543" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="brand-demo:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MybatisDemo2" />
+      <item itemvalue="Application.App2" />
+      <item itemvalue="Application.Class100_2" />
+      <item itemvalue="Application.Class101" />
+      <item itemvalue="Application.Class102_1" />
+      <item itemvalue="Tomcat Server.local" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Class102_1" />
+        <item itemvalue="Application.Class101" />
+        <item itemvalue="Application.Class100_2" />
+        <item itemvalue="Application.App2" />
+        <item itemvalue="Application.MybatisDemo2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:db1@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35dc8a1e-af53-47fe-80f0-c2b4db9df31e" name="Default Changelist" comment="" />
+      <created>1686149273750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686149273750</updated>
+      <workItem from="1686149276711" duration="655000" />
+      <workItem from="1686149958227" duration="8472000" />
+      <workItem from="1686278489158" duration="19364000" />
+      <workItem from="1686877487144" duration="15603000" />
+      <workItem from="1687749587661" duration="349000" />
+      <workItem from="1687763020941" duration="18457000" />
+      <workItem from="1687848850894" duration="19002000" />
+      <workItem from="1687962990046" duration="6145000" />
+      <workItem from="1688372756875" duration="773000" />
+      <workItem from="1688374428550" duration="23529000" />
+      <workItem from="1688638737487" duration="3322000" />
+      <workItem from="1688950755508" duration="38398000" />
+      <workItem from="1689209973395" duration="3175000" />
+      <workItem from="1689214242306" duration="18764000" />
+      <workItem from="1689861862771" duration="6760000" />
+      <workItem from="1690271969064" duration="8669000" />
+      <workItem from="1690420172579" duration="1566000" />
+      <workItem from="1690444734590" duration="1338000" />
+      <workItem from="1690446866262" duration="312000" />
+      <workItem from="1690447204333" duration="1073000" />
+      <workItem from="1690448564464" duration="1943000" />
+      <workItem from="1692428492978" duration="1069000" />
+      <workItem from="1692602767236" duration="6690000" />
+      <workItem from="1698024062239" duration="12647000" />
+      <workItem from="1698368561374" duration="8295000" />
+      <workItem from="1698733743863" duration="2523000" />
+      <workItem from="1705280372709" duration="609000" />
+      <workItem from="1705282785089" duration="8753000" />
+      <workItem from="1706490884660" duration="700000" />
+      <workItem from="1706575696089" duration="7090000" />
+      <workItem from="1707179704825" duration="2615000" />
+      <workItem from="1708218672812" duration="2510000" />
+      <workItem from="1708239611949" duration="2404000" />
+      <workItem from="1708929208633" duration="1952000" />
+      <workItem from="1709193703961" duration="1098000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1705562776680">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.672@0.0.1280.672" timestamp="1705562776680" />
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1705568542539">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672@0.0.1280.672" timestamp="1705568542539" />
+    <state x="421" y="63" key="FileChooserDialogImpl" timestamp="1709193913285">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="421" y="63" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1709193913285" />
+    <state width="1237" height="87" key="GridCell.Tab.0.bottom" timestamp="1706693285720">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1706693285720" />
+    <state width="1237" height="87" key="GridCell.Tab.0.center" timestamp="1706693285720">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1706693285720" />
+    <state width="1237" height="87" key="GridCell.Tab.0.left" timestamp="1706693285720">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1706693285720" />
+    <state width="1237" height="87" key="GridCell.Tab.0.right" timestamp="1706693285720">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="87" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1706693285720" />
+    <state x="325" y="161" key="com.intellij.ide.util.TipDialog" timestamp="1709193705937">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="325" y="161" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1709193705937" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../brand-demo/src/main/java/com/cxw/web/Update.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../brand-demo/src/main/java/com/cxw/web/AxiosServlet.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="this.asyncTimeoutGeneration" custom="javax.servlet.http.HttpServletRequest,javax.servlet.ServletInputStream,java.io.Reader" />
+        <watch expression="((char[])this.lineBuffer)[0]" custom="char[],javax.servlet.http.HttpServletRequest,java.io.BufferedReader" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

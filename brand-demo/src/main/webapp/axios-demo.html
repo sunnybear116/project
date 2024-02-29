@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--引入axios文件-->
+<script src="js/axios-0.18.0.js"></script>
+<script>
+    // axios({
+    //     method:"get",
+    //     url:"http://localhost:8080/brand/axiosServlet?username=zhangsan"
+    // }).then(function (response) {
+    //     alert(response.data);
+    // })
+    var jsobj = {username : "zhangsan"};
+    // axios({
+    //     method:"post",
+    //     url:"http://localhost:8080/brand/axiosServlet",
+    //     data:"username=zhangsan"
+    // }).then(function (response) {
+    //     alert(response.data);
+    // })
+    axios({
+        method:"post",
+        url:"http://localhost:8080/brand/axiosServlet",
+        data:jsobj
+    }).then(function (response) {
+        alert(response.data);
+    })
+
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    扫描包，给Mapper映射文件的返回值起别名-->
+    <typeAliases>
+        <package name="com.cxw.pojo"/>
+    </typeAliases>
+
+<!--    可配置多个环境，使用default选择当前环境-->
+    <environments default="development">
+<!--        开发环境-->
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <!--数据库连接信息-->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+<!--                mysql 5.7以上版本默认指定ssl安全协议启动（useSSL=true）,不写可以启动，但会报警告-->
+                <property name="url" value="jdbc:mysql:///db1?useSSL=true"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+<!--        测试环境-->
+        <environment id="test">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql:///mybatis?useSSL=true"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+<!--        加载映射文件-->
+<!--        <mapper resource="com/itheima/mapper/UserMapper.xml"/>-->
+<!--        包扫描方式，扫描整个包，不需要一个一个的加载映射文件-->
+        <package name="com.cxw.mapper"/>
+
+    </mappers>
+</configuration>

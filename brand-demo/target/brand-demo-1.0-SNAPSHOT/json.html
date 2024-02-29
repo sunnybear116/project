@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--引入axios文件-->
+<script src="js/axios-0.18.0.js"></script>
+<script>
+    var jsobj = {id:"2",username : "zhangsan",password:"123"};
+
+    axios({
+        method:"post",
+        url:"http://localhost:8080/brand/jsonServlet",
+        data:jsobj
+    }).then(function (response) {
+        alert(response.data);
+    })
+
+</script>
+
+</body>
+</html>

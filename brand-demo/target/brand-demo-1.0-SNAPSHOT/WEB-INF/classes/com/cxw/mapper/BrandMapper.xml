@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--命名空间,接口代理模式为接口的全限定名-->
+<mapper namespace="com.cxw.mapper.BrandMapper">
+<!--    <select id="selectAll" resultType="com.itheima.pojo.User">  -->
+<!--    因为核心配置文件中使用了别名typeAliases,所以会返回值类型自动定位到该包，注意类名不区分大小写-->
+<!--    status语句-->
+
+    <!--resultMap标签用于结果集映射-->
+    <resultMap id="brandResultMap" type="brand">
+        <!--    主键列用<id column="" property=""/>    -->
+        <!--普通列用result column-->
+        <result column="brand_name" property="brandName" />
+        <result column="company_name" property="companyName" />
+    </resultMap>
+    <insert id="add">
+        insert into tb_brand(brand_name,company_name,ordered,description,status)
+        values (#{brandName},#{companyName},#{ordered},#{description},#{status})
+    </insert>
+
+    <update id="update">
+        update tb_brand
+        set brand_name = #{brandName} , company_name = #{companyName} ,
+        ordered = #{ordered}, description = #{description},status = #{status}
+        where id = #{id};
+    </update>
+    <delete id="deleteById">
+        delete from tb_brand where id = #{id};
+    </delete>
+
+    <select id="selectAll" resultMap="brandResultMap">
+        select * from tb_brand;
+    </select>
+    <select id="selectById" resultMap="brandResultMap">
+        select * from tb_brand where id = #{id};
+    </select>
+
+
+
+</mapper>

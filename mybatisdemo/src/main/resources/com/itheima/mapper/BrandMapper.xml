@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--命名空间,接口代理模式为接口的全限定名-->
+<mapper namespace="com.itheima.mapper.BrandMapper">
+<!--    <select id="selectAll" resultType="com.itheima.pojo.User">  -->
+<!--    因为核心配置文件中使用了别名typeAliases,所以会返回值类型自动定位到该包，注意类名不区分大小写-->
+<!--    status语句-->
+
+    <!--resultMap标签用于结果集映射-->
+    <resultMap id="brandResultMap" type="brand">
+        <!--    主键列用<id column="" property=""/>    -->
+        <!--普通列用result column-->
+        <result column="brand_name" property="brandName" />
+        <result column="company_name" property="companyName" />
+    </resultMap>
+
+    <!--原来为resultType = brand,现在有了结果映射写resultMap-->
+    <select id="selectAll" resultMap="brandResultMap">
+        select * from tb_brand ;
+    </select>
+
+    <select id="selectById" resultMap="brandResultMap">
+        select * from tb_brand where id = #{id} ;
+    </select>
+
+<!--    <select id="selectByCondition" resultMap="brandResultMap">-->
+<!--        select * from tb_brand where-->
+<!--        status = #{status}-->
+<!--        and company_name like #{companyName}-->
+<!--        and brand_name like #{brandName}-->
+<!--    </select>-->
+
+    <!--动态sql查询-->
+    <select id="selectByCondition" resultMap="brandResultMap">
+        select * from tb_brand
+        <where>
+            <!--where 里面的 if 里面每个都要有 and 开头-->
+            <if test="status != null">
+                and status = #{status}
+            </if>
+            <!--test 里面的值为java代码的字段 xxxXXX ,不是sql里的 xxx_xxx -->
+            <if test="companyName != null and companyName != '' ">
+                and company_name like #{companyName}
+            </if>
+            <if test="brandName != null and brandName != '' ">
+                and brand_name like #{brandName}
+            </if>
+        </where>
+    </select>
+
+    <!--多条件中选择其一-->
+    <select id="selectByConditonSingle" resultMap="brandResultMap">
+        select * from tb_brand
+        <!--使用 where 标签时不用写 where -->
+        <where>
+            <choose>
+                <when test="status != null">
+                    status = #{status}
+                </when>
+                <!--            注意 test 里的值用的java ，逻辑连接符用 and 不用&& -->
+                <when test="companyName != null and companyName != ''">
+                    company_name like #{companyName}
+                </when>
+                <when test="brandName != null and brandName != '' ">
+                    brand_name like #{brandName}
+                </when>
+<!--                &lt;!&ndash;            防止用户一个也不输入，也可以用where 标签&ndash;&gt;-->
+<!--                <otherwise>-->
+<!--                    1 = 1-->
+<!--                </otherwise>-->
+            </choose>
+        </where>
+    </select>
+
+<!--    <insert id="add">-->
+<!--        insert into tb_brand(brand_name,company_name,ordered,description,status)-->
+<!--        values (#{brandName},#{companyName},#{ordered},#{description},#{status})-->
+<!--    </insert>-->
+
+    <!--获取返回的主键 keyProperty写主键的值 -->
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
+        insert into tb_brand(brand_name,company_name,ordered,description,status)
+        values (#{brandName},#{companyName},#{ordered},#{description},#{status})
+    </insert>
+
+
+<!--    <update id="update">-->
+<!--        update tb_brand-->
+<!--        set-->
+<!--            brand_name = #{brandName},-->
+<!--            company_name = #{companyName},-->
+<!--            ordered = #{ordered},-->
+<!--            description = #{description},-->
+<!--            status = #{status}-->
+<!--        where id = #{id};-->
+<!--    </update>-->
+
+<!--    动态更新 ，动态sql语句-->
+    <update id="update">
+        update tb_brand
+        <set>
+            <if test="brandName != null and brandName != ''">
+                brand_name = #{brandName},
+            </if>
+            <if test="companyName != null and companyName != '' ">
+                company_name = #{companyName},
+            </if>
+            <if test="ordered != null and ordered != '' ">
+                ordered = #{ordered},
+            </if>
+            <if test="description != null and description != '' ">
+                description = #{description},
+            </if>
+            <if test="status != null and status != '' ">
+                status = #{status},
+            </if>
+        </set>
+        where id = #{id};
+    </update>
+
+    <delete id="deleteById">
+        delete from tb_brand where id = #{id};
+    </delete>
+<!--    批量删除，collection的值为ids，这个需要在对应的mapper接口中用 @Param 注解指明-->
+    <delete id="deleteByIds">
+        delete from tb_brand where id in(
+            <foreach collection="ids" item="id" separator=",">
+                #{id}
+            </foreach>
+        )
+    </delete>
+
+
+</mapper>
