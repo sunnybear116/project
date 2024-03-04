@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35dc8a1e-af53-47fe-80f0-c2b4db9df31e" name="Default Changelist" comment="" />
+    <list default="true" id="35dc8a1e-af53-47fe-80f0-c2b4db9df31e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../brand-demo/src/main/java/com/cxw/jdbc/druid/druiddemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../brand-demo/src/main/resources/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../brand-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand-demo/src/main/java/com/cxw/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../brand-demo/src/main/java/com/cxw/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand-demo/target/classes/com/cxw/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../brand-demo/target/classes/com/cxw/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +60,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -74,6 +85,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2QsjdtKXmOQuAxJDMXxuXHNxGC1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -86,24 +98,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41311854" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\space\maker\code\adbc\springMVC\src\main\java\com\spring" />
-      <recent name="D:\space\maker\code\adbc\springMVC\src\main\resources" />
-      <recent name="D:\space\brand-demo\src\main\webapp\js" />
-      <recent name="D:\space\brand-demo\src\main\java\com\cxw\util" />
-      <recent name="D:\space\maker\code\adbc\untitled\src\main\webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.adbc.util" />
-      <recent name="com.adbc.pojo" />
-      <recent name="com.adbc.web" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\space\maker\code\adbc\untitled\src\main\webapp" />
       <recent name="D:\space\brand-demo\src\main\webapp" />
@@ -111,8 +111,20 @@
       <recent name="D:\space\jsp-demo\src\main\webapp" />
       <recent name="D:\space\servlet\src\main\webapp" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.adbc.util" />
+      <recent name="com.adbc.pojo" />
+      <recent name="com.adbc.web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\space\maker\code\adbc\springMVC\src\main\java\com\spring" />
+      <recent name="D:\space\maker\code\adbc\springMVC\src\main\resources" />
+      <recent name="D:\space\brand-demo\src\main\webapp\js" />
+      <recent name="D:\space\brand-demo\src\main\java\com\cxw\util" />
+      <recent name="D:\space\maker\code\adbc\untitled\src\main\webapp" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Class102_1">
+  <component name="RunManager" selected="Application.druiddemo">
     <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.App2" />
       <module name="springMVC" />
@@ -165,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.MybatisDemo2" />
-      <module name="mybatisdemo" />
+    <configuration name="druiddemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cxw.jdbc.druid.druiddemo" />
+      <module name="brand-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.*" />
+          <option name="PATTERN" value="com.cxw.jdbc.druid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,20 +267,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MybatisDemo2" />
       <item itemvalue="Application.App2" />
       <item itemvalue="Application.Class100_2" />
       <item itemvalue="Application.Class101" />
       <item itemvalue="Application.Class102_1" />
       <item itemvalue="Tomcat Server.local" />
+      <item itemvalue="Application.druiddemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.druiddemo" />
         <item itemvalue="Application.Class102_1" />
         <item itemvalue="Application.Class101" />
         <item itemvalue="Application.Class100_2" />
         <item itemvalue="Application.App2" />
-        <item itemvalue="Application.MybatisDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +354,7 @@
       <workItem from="1708218672812" duration="2510000" />
       <workItem from="1708239611949" duration="2404000" />
       <workItem from="1708929208633" duration="1952000" />
-      <workItem from="1709193703961" duration="1098000" />
+      <workItem from="1709193703961" duration="10066000" />
     </task>
     <servers />
   </component>
@@ -350,38 +362,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Project_Structure" timestamp="1705562776680">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1709541278139">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="233" y="0" key="#Project_Structure/0.0.1280.672@0.0.1280.672" timestamp="1705562776680" />
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.672@0.0.1280.672" timestamp="1709541278139" />
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1705568542539">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672@0.0.1280.672" timestamp="1705568542539" />
-    <state x="421" y="63" key="FileChooserDialogImpl" timestamp="1709193913285">
+    <state x="341" y="262" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1709541291941">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="421" y="63" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1709193913285" />
-    <state width="1237" height="87" key="GridCell.Tab.0.bottom" timestamp="1706693285720">
+    <state x="341" y="262" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.672@0.0.1280.672" timestamp="1709541291941" />
+    <state x="421" y="63" key="FileChooserDialogImpl" timestamp="1709257065722">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="87" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1706693285720" />
-    <state width="1237" height="87" key="GridCell.Tab.0.center" timestamp="1706693285720">
+    <state x="421" y="63" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1709257065722" />
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1709544141734">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="87" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1706693285720" />
-    <state width="1237" height="87" key="GridCell.Tab.0.left" timestamp="1706693285720">
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1709544141734" />
+    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1709544141734">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="87" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1706693285720" />
-    <state width="1237" height="87" key="GridCell.Tab.0.right" timestamp="1706693285720">
+    <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1709544141734" />
+    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1709544141734">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="87" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1706693285720" />
+    <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1709544141734" />
+    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1709544141734">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1709544141734" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1709257168417">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1709257168417" />
     <state x="325" y="161" key="com.intellij.ide.util.TipDialog" timestamp="1709193705937">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="325" y="161" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1709193705937" />
+    <state x="437" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1709257238564">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="437" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.672@0.0.1280.672" timestamp="1709257238564" />
+    <state x="0" y="0" width="773" height="672" key="find.popup" timestamp="1709541743046">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="0" y="0" width="773" height="672" key="find.popup/0.0.1280.672@0.0.1280.672" timestamp="1709541743046" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
